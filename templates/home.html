@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<br>
+  <h2 class="head text-center">IP LOOKUP</h2>
+  <p class="text-center pclass">Your ip address is <strong>{{ ip }}</strong>, and you are probably in <strong>{{ country }}</strong> right now.{{ city }}</p>
+
+
+<div class="card text-center center-block" style="width: 26rem" >
+    <div class="card-header">
+        IPLOOKUP
+    </div>
+    <div class="card-body">
+        <div class="form-group form-inline">
+            <form method="post" action="">
+                {% csrf_token %}
+                {{ form }}
+                <br>
+                <br>
+                <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> &nbsp;LOOK UP</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

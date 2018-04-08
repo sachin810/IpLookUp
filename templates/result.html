@@ -1,0 +1,37 @@
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+<div id="pop" class="container container-fluid "  >
+        <nav class="nav navbar" >
+                <div class="input-group">
+                        <input class= " form-control width100 " type="{{form}}
+                        <span class="input-group-btn">
+                                 <button class="btn  btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> LOOK UP</button>
+                         </span>
+                </div>
+        </nav>
+        <div class="container-body">
+                <br>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;hostname: <span style="color: #149570">"{{hostname}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;type: <span style="color: #149570">"{{type}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;continent_code: <span style="color: #149570">"{{continent_code}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;continent_name: <span style="color: #149570">"{{continent_name}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;country_code: <span style="color: #149570">"{{country_code}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;country_name: <span style="color: #149570">"{{country_name}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;region_code: <span style="color: #149570">"{{region_code}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;region_name: <span style="color: #149570">"{{region_name}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;city: <span style="color: #149570">"{{city}}"</span></p>
+                <p class="pl"><i class="fas fa-quote-left" style="color: green"></i>&nbsp;zip: <span style="color: #149570">"{{zip}}"</span></p>
+        </div>
+</div>
+{% endblock %}
+
+
+<div class="input-group">
+    <input class="form-control width100">
+    <span class="input-group-btn">
+        <button class="btn btn-info">MyButton</button>
+    </span>
+</div>
