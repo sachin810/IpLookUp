@@ -1,0 +1,54 @@
+
+
+body{
+    background :white url("images/background1.jpg");
+}
+
+.card {
+    position: absolute !important;
+    z-index: 20 !important;
+    top: 50% !important;
+    left:43% !important;
+    margin: -100px 0 0 -150px !important;
+    background: white !important;
+    border-radius: 5px !important;
+    width: 26rem !important;
+
+}
+
+.head{
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.pclass{
+    color: white;
+}
+
+.container-body{
+    font-family: Source Code Pro, monospace;
+    background: white !important;
+    width: 500px !important;
+    height:400px !important;
+    overflow-y: scroll !important;
+}
+.pl{
+    color: #414770;;
+}
+
+#pop{
+
+    position: absolute !important;
+    z-index: 20 !important;
+    top: 30% !important;
+    left:43% !important;
+    margin: -100px 0 0 -150px !important;
+    background: white !important;
+    border-radius: 5px !important;
+    width: 32.2rem !important;
+
+}
+
+.form-group{
+    border-radius: 5px;
+}
