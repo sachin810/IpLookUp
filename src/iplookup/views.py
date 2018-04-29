@@ -17,7 +17,7 @@ def home(request):
             'ip': geodata['ip'],
             'country': geodata['country_name'],
             "city": geodata['city'],
-            "hostname":geodata['hostname'],
+           ''' "hostname":geodata['hostname'],'''
             'type':geodata["type"],
             "continent_code":geodata["continent_code"],
             "continent_name": geodata["continent_name"],
